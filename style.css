@@ -1,0 +1,28 @@
+
+body{
+    min-height: 100vh;
+    background: url('background.jpg');
+    background-size: cover;
+    background-position:center ;
+}
+.header {
+    position: fixed; 
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+
+}
+
+.img{
+    display: flex;
+    justify-content:first baseline;
+    align-items: center;
+    z-index: 100;
+}
+
+}
